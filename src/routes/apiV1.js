@@ -19,4 +19,6 @@ router.get('/challenge/two/convert/octal/:number', chalTwo.octal);
 router.get('/challenge/two/convert/hexa/:number', chalTwo.hexa);
 router.post('/challenge/two/bmi', chalTwo.bmi);
 
+router.use('/praktikum', require('./praktikum'));
+
 module.exports = router;
