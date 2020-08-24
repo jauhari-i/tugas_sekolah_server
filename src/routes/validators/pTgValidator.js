@@ -1,4 +1,4 @@
-const { body, check } = require('express-validator');
+const { check } = require('express-validator');
 const Pegawai = require('../../models/PTgPegawai');
 
 module.exports = validasi = {

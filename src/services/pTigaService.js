@@ -1,6 +1,5 @@
 const Pegawai = require('../models/PTgPegawai');
 const { v4: uuid } = require('uuid');
-const { findOneAndRemove } = require('../models/PTgPegawai');
 
 module.exports = services = {
   getAll: async (cb) => {
