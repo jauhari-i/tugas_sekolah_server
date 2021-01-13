@@ -20,5 +20,8 @@ router.get('/challenge/two/convert/hexa/:number', chalTwo.hexa);
 router.post('/challenge/two/bmi', chalTwo.bmi);
 
 router.use('/praktikum', require('./praktikum'));
+router.use('/tokobuku', require('./bookApi'));
+
+router.use('/irfan', require('./profile'));
 
 module.exports = router;
